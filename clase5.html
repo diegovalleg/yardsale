@@ -84,10 +84,10 @@
             margin-bottom: 20px;
         }
 
-        .primary-button{
-            background-color: var(--hospital-green);
+        .secondary-button{
+            background-color: var(--white);
             border-radius: 8px;
-            border:none;
+            border:1px solid var(--hospital-green);
             color: var(--white);
             width: 100%;
             cursor: pointer;
@@ -116,15 +116,15 @@
 
             <form action="/" class="form">
                 <label for="name" class="label">Name</label>
-                <input type="text" id="name" placeholder="Diego" class="input input-name">
+                <p class="value">Camila yokoo</p>
 
                 <label for="email" class="label">email</label>
-                <input type="text" id="email" placeholder="tucorreo@dominio.com" class="input input-email">
+                <p class="value">tucorreo@dominio.com</p>
 
                 <label for="password" class="label">password</label>
-                <input type="password" id="password" placeholder="************ " class="input input-password">
+                <p class="value">*********</p>
 
-                <input type="submit" value="Create" class="primary-button login-button">
+                <input type="submit" value="Create" class="secondary-button login-button">
 
             </form>
         </div>
